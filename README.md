@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿# 🎵 AI Mood Transition Playlist Generator
+🎵 AI Mood Transition Playlist Generator
 
 An intelligent playlist generator that creates smooth mood transitions using AI and your Spotify music library.
 
@@ -10,10 +9,6 @@ An intelligent playlist generator that creates smooth mood transitions using AI 
 - 🎨 **Smooth Transitions**: Creates natural progressions between moods
 - 💾 **Spotify Integration**: Save playlists directly to your Spotify account
 - 🔄 **Smart Fallbacks**: Works even when Spotify API is unavailable
-
-## 🚀 Live Demo
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
 
 ## 🛠️ Local Setup
 
@@ -57,7 +52,7 @@ streamlit run app.py
 
 1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 2. Create a new app
-3. Add redirect URI: `http://localhost:8501/callback` (for local) or `https://your-app-name.streamlit.app/callback` (for deployment)
+3. Add redirect URI: `http://localhost:8501/callback`
 4. Copy Client ID and Client Secret to your secrets file
 
 ## 📱 How to Use
@@ -80,19 +75,16 @@ streamlit run app.py
 - **API**: Spotify Web API
 - **Data Processing**: Pandas, NumPy, Scikit-learn
 
+## 🧠 Deep Learning Model
+
+**PyTorch Autoencoder with Contrastive Loss:**
+- **Input**: 9 audio features (danceability, energy, valence, etc.)
+- **Encoder**: 9 → 64 → 32 → 16 (mood embedding)
+- **Decoder**: 16 → 32 → 64 → 9 (reconstruction)
+- **Loss**: Reconstruction + Contrastive loss for diverse embeddings
+- **Training**: Unsupervised on user's music library
+
 ## 📄 License
 
 MIT License - see LICENSE file for details
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Support
-
-If you encounter any issues, please open an issue on GitHub.
-
-=======
-# mood-playlist-blender
-AI-powered mood transition playlist generator using Spotify API
->>>>>>> 5a123ffb713726ecab69d740e0faff6436d9e8c3
