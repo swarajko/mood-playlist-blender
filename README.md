@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# 🎵 AI Mood Transition Playlist Generator
 
 An intelligent playlist generator that creates smooth mood transitions using AI and your Spotify music library.
@@ -91,3 +92,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 If you encounter any issues, please open an issue on GitHub.
 
+=======
+# mood-playlist-blender
+AI-powered mood transition playlist generator using Spotify API
+>>>>>>> 5a123ffb713726ecab69d740e0faff6436d9e8c3
