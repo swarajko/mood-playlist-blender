@@ -2,7 +2,7 @@
 
 An intelligent playlist generator that creates smooth mood transitions using AI and your Spotify music library.
 
-## ✨ Features
+## Features
 
 - 🎯 **Mood-Based Playlists**: Generate playlists that transition between different moods
 - 🤖 **AI-Powered**: Uses deep learning to understand your music taste
@@ -10,7 +10,7 @@ An intelligent playlist generator that creates smooth mood transitions using AI 
 - 💾 **Spotify Integration**: Save playlists directly to your Spotify account
 - 🔄 **Smart Fallbacks**: Works even when Spotify API is unavailable
 
-## 🛠️ Local Setup
+## Local Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -48,14 +48,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🔧 Spotify App Setup
+## Spotify App Setup
 
 1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 2. Create a new app
 3. Add redirect URI: `http://localhost:8501/callback`
 4. Copy Client ID and Client Secret to your secrets file
 
-## 📱 How to Use
+## How to Use
 
 1. **Login** with your Spotify account
 2. **Load your music library** (saved tracks, playlists, top tracks)
@@ -63,19 +63,19 @@ streamlit run app.py
 4. **Choose transition speed** (quick, balanced, or gradual)
 5. **Generate playlist** and save to Spotify
 
-## 🎭 Available Moods
+## Available Moods
 
 - Happy, Sad, Energetic, Calm, Angry
 - Romantic, Melancholic, Party, Focus, Chill
 
-## 🏗️ Architecture
+## Architecture
 
 - **Frontend**: Streamlit
 - **ML Model**: PyTorch-based autoencoder for mood embeddings
 - **API**: Spotify Web API
 - **Data Processing**: Pandas, NumPy, Scikit-learn
 
-## 🧠 Deep Learning Model
+## Deep Learning Model
 
 **PyTorch Autoencoder with Contrastive Loss:**
 - **Input**: 9 audio features (danceability, energy, valence, etc.)
@@ -84,7 +84,7 @@ streamlit run app.py
 - **Loss**: Reconstruction + Contrastive loss for diverse embeddings
 - **Training**: Unsupervised on user's music library
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details
 
